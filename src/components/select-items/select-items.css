@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Book-avenir';
+  src: local('Book-avenir'), url('../../fonts/AvenirLTStd-Book.otf') format('woff');
+}
+
+.text {
+	font-family: Book-avenir;
+	margin-top: 49px;
+	margin-bottom: 50px;
+}
+
+p {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #2E282C;
+}
+
+select {
+	width: 200px;
+	height: 50px;
+
+	margin-top: -9px;
+	border: 1px solid #444444;
+	box-sizing: border-box;
+	border-radius: 6px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 33px;
+	color: #2E282C;
+
+	padding-left: 20px;
+}
